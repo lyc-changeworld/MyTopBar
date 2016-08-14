@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.achuan.mytopbar.MainActivity"
+    xmlns:achuan="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.example.achuan.mytopbar.MyTopbar
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    achuan:MyleftText="Back"
+    achuan:MyleftTextColor="#ffffff"
+    achuan:MyleftBackgroud="@drawable/bt_bg"
+    achuan:MyrightText="More"
+    achuan:MyrightTextColor="#ffffff"
+    achuan:MyrightBackgroud="@drawable/bt_bg"
+    achuan:MytitleTextColor="#000000"
+    achuan:MytitleTextSize="10sp"
+    achuan:MytitleText="自定义标题">
+
+</com.example.achuan.mytopbar.MyTopbar>
+</RelativeLayout>
